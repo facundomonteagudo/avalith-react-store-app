@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/avalith-react-store-app/static/css/main.f933d511.chunk.css",
+    "main.js": "/avalith-react-store-app/static/js/main.282d7abb.chunk.js",
+    "main.js.map": "/avalith-react-store-app/static/js/main.282d7abb.chunk.js.map",
+    "runtime-main.js": "/avalith-react-store-app/static/js/runtime-main.ec6b7ca8.js",
+    "runtime-main.js.map": "/avalith-react-store-app/static/js/runtime-main.ec6b7ca8.js.map",
+    "static/js/2.0e7aeb71.chunk.js": "/avalith-react-store-app/static/js/2.0e7aeb71.chunk.js",
+    "static/js/2.0e7aeb71.chunk.js.map": "/avalith-react-store-app/static/js/2.0e7aeb71.chunk.js.map",
+    "index.html": "/avalith-react-store-app/index.html",
+    "static/css/main.f933d511.chunk.css.map": "/avalith-react-store-app/static/css/main.f933d511.chunk.css.map",
+    "static/js/2.0e7aeb71.chunk.js.LICENSE.txt": "/avalith-react-store-app/static/js/2.0e7aeb71.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec6b7ca8.js",
+    "static/js/2.0e7aeb71.chunk.js",
+    "static/css/main.f933d511.chunk.css",
+    "static/js/main.282d7abb.chunk.js"
+  ]
+}
