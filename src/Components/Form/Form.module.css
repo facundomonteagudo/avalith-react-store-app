@@ -1,0 +1,112 @@
+.card {
+  display: flex;
+  margin: 1rem;
+  background-color: #2a2e35;
+  border-radius: 0.5rem;
+  text-align: start;
+  box-shadow: 0.4rem 0 1rem -0.3rem #010101;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  flex-direction: column;
+  width: 500px;
+  margin: 10rem auto;
+  text-align: center;
+}
+
+.text {
+  font-style: italic;
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 800;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.formGroup {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.formField {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 2rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.formField::placeholder {
+  color: transparent;
+}
+.formField:placeholder-shown ~ .formLabel {
+  font-size: 1.5rem;
+  cursor: text;
+  top: 25px;
+}
+
+.formLabel {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.formField:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #fb9865, #a05936);
+  border-image-slice: 1;
+}
+.formField:focus ~ .formLabel {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #fb9865;
+  font-weight: 700;
+}
+
+/* reset input */
+.formField:required,
+.formField:invalid {
+  box-shadow: none;
+}
+
+.btn {
+  background-color: #09c372;
+  border-radius: 0.2rem;
+  color: #fff;
+  margin: 2rem 0 0.5rem;
+  padding: 1.5rem 5rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+}
+
+.btn:active {
+  transform: translateY(-0.1rem);
+}
+
+.error {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 3rem;
+}

@@ -1,0 +1,91 @@
+.card {
+  margin: 1rem;
+  background-color: #2a2e35;
+  border-radius: 0.5rem;
+  text-align: start;
+  box-shadow: 0.4rem 0 1rem -0.3rem #010101;
+  color: #fff;
+  display: flex;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-0.3rem);
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 0.5rem;
+}
+
+.imgContainer {
+  padding: 1rem;
+  width: 20rem;
+  height: 25rem;
+}
+
+.infobox {
+  padding: 1rem;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tag {
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 0.2rem;
+  background: #454e56;
+  font-weight: 600;
+  margin: 0.25em 0.1em;
+  /* max-height: 100px;  not working :(
+  text-overflow: ellipsis; */
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fb9865;
+}
+
+.cat {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.price {
+  color: #09c372;
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  align-self: flex-start;
+}
+
+.desc {
+  font-size: 1.4rem;
+  color: #b2becd;
+}
+
+.btn {
+  background-color: #09c372;
+  border-radius: 0.2rem;
+  color: #fff;
+  padding: 1rem 5rem;
+  text-align: center;
+  margin-top: auto;
+  cursor: pointer;
+  align-self: flex-end;
+  font-weight: 800;
+  font-size: 1rem;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+}
+
+.btn:active {
+  transform: translateY(-0.1rem);
+}

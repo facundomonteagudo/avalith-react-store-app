@@ -1,0 +1,34 @@
+.card {
+  margin: 10rem auto;
+  border-radius: 0.5rem;
+  text-align: start;
+  color: #fff;
+  display: flex;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+  justify-content: center;
+  width: fit-content;
+}
+
+.btn {
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.2rem;
+  background: #454e56;
+  font-weight: 600;
+  margin: 0.25em 0.1em;
+  font-size: 2rem;
+  color: #6c7983;
+  cursor: pointer;
+  transition: all 0.2s;
+  transition: color 0.5s ease;
+  border: none;
+}
+
+.btn:hover {
+  color: #fb9865;
+  transform: translateY(-0.2rem);
+}
+
+.btn:active {
+  transform: translateY(0.2rem);
+}
